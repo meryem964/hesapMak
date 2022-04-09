@@ -16,5 +16,14 @@ public class toplam {
         double bolme=s1/s2;
         System.out.println("BOLUM:" +bolme);
 
+
+        try {
+            double HatalıBolme=s1/s2;
+
+        }
+
+        catch (Exception e){
+            System.out.println("bir sayi sifira bolunemez ");
+        }
     }
 }
