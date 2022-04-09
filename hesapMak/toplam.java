@@ -12,5 +12,9 @@ public class toplam {
        
         double toplam=s1+s2;
         System.out.println("toplam:" +toplam);
+
+        double bolme=s1/s2;
+        System.out.println("BOLUM:" +bolme);
+
     }
 }
